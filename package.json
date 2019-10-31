@@ -1,0 +1,23 @@
+{
+  "name": "hostingapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devin5/hostingapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devin5/hostingapi/issues"
+  },
+  "homepage": "https://github.com/devin5/hostingapi#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
