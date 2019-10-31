@@ -5,6 +5,7 @@ const express = require("express");
 console.log("\nmessage:", process.env.MSG);
 
 const server = express(); // creating an instance of an express server
+server.use(express.json());
 
 server.get("/", (req, res) => {
   res.status(200).send("Hello World");
